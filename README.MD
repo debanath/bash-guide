@@ -49,3 +49,23 @@ Once you’ve identified where bash is installed (e.g., `/bin/bash` or `/usr/loc
     You may be prompted for your password. After entering it, log out and back in to start using bash as your default shell.
 > [!NOTE]
 > If these steps don’t work, you may need assistance from your system administrator.
+
+# Files in UNIX :page_facing_up:
+
+Although not all command arguments are files, files are fundamental in any UNIX system. Files can hold various types of information, and three main types are crucial:
+
+1. **Regular Files**  
+    - Also known as _text files_.
+    - These contain readable characters and are the most common type of file.
+    - Example: This guide was created using several regular files, which hold text and human-readable formatting instructions for processing.
+
+2. **Executable Files**  
+    - Also referred to as _programs_.
+    - These are files that can be executed as commands. Some are not readable by humans, while others, like _shell scripts_, are special text files that can be run by the system.
+    - The shell itself (e.g., `bash`) is a non-human-readable executable file.
+
+3. **Directories**  
+    - Directories are like _folders_ that can contain other files and subdirectories.
+    - They organize files into a hierarchical structure, helping to manage and access files efficiently.
+
+These file types form the backbone of working in a UNIX system, allowing users to store, execute, and organize data effectively.
