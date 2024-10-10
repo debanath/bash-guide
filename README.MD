@@ -19,7 +19,7 @@ If a new prompt like `bash3 $` appears, bash is installed. To return to your cur
 ```bash
 exit
 ```
-
+> [!NOTE]
 > If you get a “not found” message, bash might not be installed. Contact your system administrator to see if it's installed in an inaccessible directory, or proceed with installing it if necessary.
 ### 3. Making Bash Your Default Shell
 You can temporarily start bash from any other shell by typing `bash`, but it’s better to make it your default login shell.
@@ -47,5 +47,5 @@ Once you’ve identified where bash is installed (e.g., `/bin/bash` or `/usr/loc
 
 1. Confirm the Change
     You may be prompted for your password. After entering it, log out and back in to start using bash as your default shell.
-
->If these steps don’t work, you may need assistance from your system administrator.
+> [!NOTE]
+> If these steps don’t work, you may need assistance from your system administrator.
